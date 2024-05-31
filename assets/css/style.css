@@ -24,6 +24,11 @@ header{
     padding: 0% 1rem;
     width: 100%;
     z-index: 99;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
 }
 
 header a {
@@ -67,14 +72,18 @@ nav {
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%;
 }
 
+#nav-toggle:checked~nav {
+    display: block;
+}
 
 /* main  */
 main {
     flex: 1 0 auto;
     background-color: aquamarine;
-    margin-top: 56px;
+    margin-top: 43px;
 }
 
 
