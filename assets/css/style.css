@@ -13,40 +13,57 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color: #3d3d3d;
 }
 
 
 /* header  */
 header{
-    background-color: gray;
+    background-color: #ffffff;
     position: fixed;
     padding: 0% 1rem;
     width: 100%;
     z-index: 99;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 header a {
     text-decoration: none;
-    
+    color: inherit;
 }
 
 h1 {
     font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
 }
 
 header h1 {
-    color: rgb(7, 252, 40);
+    color: rgb(127, 187, 9);
 }
 
 h1 span {
-    color: rgb(234, 255, 0);
-    font-weight: bold;
+    color: orangered
+}
+
+.menu {
+    list-style-type: none;
+    align-items: right;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+.menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: #3d3d3d 1px solid;
 }
 
 /* main  */
 main {
     flex: 1 0 auto;
+    background-color: aquamarine;
 }
 
 
