@@ -14,15 +14,16 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
 }
 
 
 /* header  */
 header{
     background-color: gray;
-    font-size: 150%;
-    display: flex;
+    position: fixed;
+    padding: 0% 1rem;
+    width: 100%;
+    z-index: 99;
 }
 
 header a {
