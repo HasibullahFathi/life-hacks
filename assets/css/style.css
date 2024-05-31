@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(195, 195, 195, 0.417);
+    font-size: 150%;
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: rgb(7, 252, 40); 
+}
+
+h1 span {
+    color: rgb(234, 255, 0);
+    font-weight: bold;
+    /* font-size: 150%; */
+}
+main {
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: burlywood;
+}
