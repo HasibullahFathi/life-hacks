@@ -42,7 +42,7 @@ h1 {
 }
 
 header h1 {
-    color: rgb(127, 187, 9);
+    color: rgb(127, 187, 9); 
 }
 
 h1 span {
@@ -92,11 +92,46 @@ nav {
 main {
     flex: 1 0 auto;
     background-color: aquamarine;
-    margin-top: 43px;
+    margin-top: 40px;
 }
 
 
 /* footer */
 footer{
     background-color: gray;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+        padding-right: 1rem;
+ 
+    }
+
+    .menu {
+        display: flex;
+        font-size: 100%;
+    }
+
+    .menu li {
+        padding-left: 1.5rem;
+    }
+    
+    .toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 58px;
+    }
+
+    .logo {
+        margin-top: 0.5rem;
+    }
+
 }
