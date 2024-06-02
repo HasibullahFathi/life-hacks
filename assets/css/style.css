@@ -122,6 +122,7 @@ main {
 /* media queries */
 @media screen and (min-width: 768px) {
 
+    /* header */
     nav {
         display: block;
         position: relative;
@@ -180,6 +181,11 @@ main {
         background-color: rgb(155, 41, 0);
     }
 
+    /* footer */
+    .social-media {
+        padding: 20px 100px;
+    }
+
 }
 
 /* media queries for larger screens */
@@ -195,5 +201,11 @@ main {
 
     .menu li {
         padding-left: 2rem;
+    }
+
+    /* footer */
+    .social-media {
+        padding: 20px 500px;
+        font-size: 130%;
     }
 }
