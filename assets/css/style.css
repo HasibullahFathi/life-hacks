@@ -119,7 +119,8 @@ footer{
     }
 
     .menu li {
-        padding-left: 1.5rem;
+        padding-left: 1rem;
+        /* padding-right: 1rem; */
     }
     
     .toggle-label {
@@ -133,5 +134,36 @@ footer{
     .logo {
         margin-top: 0.5rem;
     }
+
+    .login-btn {
+       
+        border: none;       
+        border-radius: 25px; 
+        padding: 10px 20px;  
+        font-size: 16px;      
+        cursor: pointer;   
+        margin-top: -1rem;   
+    }
+
+    .login {
+        background-color: orangered; 
+        color: white;         
+    } 
+
+    .signup {
+        background-color: rgba(191, 189, 189, 0.443);
+        color: #3d3d3d;         
+    } 
+
+    .signup:hover {
+        background-color: rgba(191, 189, 189, 0.643);
+    }
+    
+    .login:hover {
+        background-color: rgb(155, 41, 0);
+    }
+    /* .login-btn:hover {
+        background-color: darkred; 
+    } */
 
 }
