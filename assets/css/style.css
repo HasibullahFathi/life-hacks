@@ -128,7 +128,7 @@ footer{
     }
 
     main {
-        margin-top: 58px;
+        margin-top: 68px;
     }
 
     .logo {
@@ -162,8 +162,5 @@ footer{
     .login:hover {
         background-color: rgb(155, 41, 0);
     }
-    /* .login-btn:hover {
-        background-color: darkred; 
-    } */
 
 }
