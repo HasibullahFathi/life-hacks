@@ -120,7 +120,6 @@ footer{
 
     .menu li {
         padding-left: 1rem;
-        /* padding-right: 1rem; */
     }
     
     .toggle-label {
@@ -163,4 +162,19 @@ footer{
         background-color: rgb(155, 41, 0);
     }
 
+}
+
+@media screen and (min-width: 992px) {
+    /* make font bold  */
+    .menu {
+        font-weight: bolder;
+    }
+
+    .login-btn{
+        font-weight: bolder;
+    }
+
+    .menu li {
+        padding-left: 2rem;
+    }
 }
