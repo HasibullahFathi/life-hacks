@@ -64,6 +64,15 @@ h1 span {
     border-bottom: #3d3d3d 1px solid;
 }
 
+.login-btn {
+       
+    border: none;       
+    background-color: white;
+    font-size: 100%;
+    letter-spacing: 3px;
+    color: #3d3d3d;
+}
+
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -95,11 +104,6 @@ main {
     margin-top: 40px;
 }
 
-
-/* footer */
-footer{
-    background-color: gray;
-}
 
 /* media queries */
 @media screen and (min-width: 768px) {
@@ -164,6 +168,7 @@ footer{
 
 }
 
+/* media queries for larger screens */
 @media screen and (min-width: 992px) {
     /* make font bold  */
     .menu {
