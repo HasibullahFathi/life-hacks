@@ -5,7 +5,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
+
 }
 
 /* body  */
@@ -19,7 +19,7 @@ body {
 
 
 /* header  */
-header{
+header {
     background-color: rgb(234 234 234);
     position: fixed;
     padding: 0% 1rem;
@@ -42,7 +42,7 @@ h1 {
 }
 
 header h1 {
-    color: rgb(127, 187, 9); 
+    color: rgb(127, 187, 9);
 }
 
 h1 span {
@@ -51,7 +51,6 @@ h1 span {
 
 .menu {
     list-style-type: none;
-    align-items: right;
     font-size: 120%;
     letter-spacing: 3px;
 }
@@ -65,8 +64,8 @@ h1 span {
 }
 
 .login-btn {
-       
-    border: none;       
+
+    border: none;
     background-color: white;
     font-size: 100%;
     letter-spacing: 3px;
@@ -170,7 +169,12 @@ main {
     padding-top: 1rem;
 }
 
-.who-we-are, .what-we-do {
+.info h3 {
+    margin: 25px 0px 0px 10px;
+}
+.who-we-are,
+.what-we-do,
+.what-for-you {
     padding: 10px;
     text-align: justify;
 }
@@ -184,7 +188,7 @@ main {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 20px 40px;
     list-style-type: none;
     background-color: rgb(234 234 234);
     margin-top: auto;
@@ -216,7 +220,7 @@ main {
     .menu li {
         padding-left: 1rem;
     }
-    
+
     .toggle-label {
         display: none;
     }
@@ -226,103 +230,131 @@ main {
         flex: 1 0 auto;
     }
 
+    .info {
+        column-count: 2;
+    }
+
+    .who-we-are,
+    .what-we-do,
+    .what-for-you {
+        display: flex;
+        /* flex-direction: column; */
+        height: 22em;
+        column-count: 2;
+    }
+
     .logo {
         margin-top: 0.8rem;
     }
 
     .login-btn {
-       
-        border: none;       
-        border-radius: 25px; 
-        padding: 10px 20px;  
-        font-size: 14px;      
-        cursor: pointer;   
-        margin-top: -1rem;   
+
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-top: -1rem;
     }
 
     .login {
         background-color: rgba(134, 134, 134, 0.327);
-        color: #3d3d3d;         
-    } 
+        color: #3d3d3d;
+    }
 
     .signup {
-        background-color: rgba(134, 134, 134, 0.327); 
-        color: #3d3d3d;         
-    } 
+        background-color: rgba(134, 134, 134, 0.327);
+        color: #3d3d3d;
+    }
 
     .signup:hover {
-        background-color: orangered; 
+        background-color: orangered;
         color: white;
     }
-    
+
     .login:hover {
-        background-color: orangered; 
+        background-color: orangered;
         color: white;
     }
 
     /* main section  */
-    .who-we-are, .what-we-do {
+    .who-we-are,
+    .what-we-do,
+    .what-for-you {
         padding: 20px;
     }
 
     .about h2 {
         margin: 20px 0;
+    }
+
+    .info h3 {
+        margin: 25px 0px 0px 20px;
+    }
 
     /* footer */
     .social-media {
         padding: 20px 120px;
     }
-
 }
+    /* media queries for larger screens */
+    @media screen and (min-width: 992px) {
 
-/* media queries for larger screens */
-@media screen and (min-width: 992px) {
-    /* make font bold  */
-    .menu {
-        font-weight: bolder;
+        /* make font bold  */
+        .menu {
+            font-weight: bolder;
+        }
+
+        .login-btn {
+            font-weight: bolder;
+        }
+
+        .menu li {
+            padding-left: 2rem;
+        }
+
+        /* search bar  */
+        .search-container {
+            width: 47.5%;
+            top: 50px;
+            left: 49.9%;
+        }
+
+        .cover-text {
+            width: 49%;
+            margin-left: 3%;
+        }
+
+        /* main section  */
+        
+
+
+        /* footer */
+        .social-media {
+            padding: 20px 500px;
+            font-size: 130%;
+        }
     }
 
-    .login-btn{
-        font-weight: bolder;
+    /* media queries for larger screens 1024*/
+    @media screen and (min-width: 1024px) {
+        .social-media {
+            padding: 20px 150px 20px 150px;
+        }
+
+        .who-we-are,
+        .what-we-do,
+        .what-for-you {
+            height: 28em;
+        }
     }
 
-    .menu li {
-        padding-left: 2rem;
-    }
+    /* media queries for larger screens 1200*/
+    @media screen and (min-width: 1300px) {
 
-    /* search bar  */
-    .search-container {
-        width: 47.5%;
-        top: 50px;
-        left: 49.9%;
+        .who-we-are,
+        .what-we-do,
+        .what-for-you {
+            height: 34em;
+        }
     }
-
-    .cover-text {
-        width: 49%;
-        margin-left: 3%;
-    }
-
-    /* main section  */
-    .info {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 2%;
-    }
-
-    .what-we-do {
-        order: 2;
-    }
-
-    /* footer */
-    .social-media {
-        padding: 20px 500px;
-        font-size: 130%;
-    }
-}
-
-/* media queries for larger screens 1024*/
-@media screen and (min-width: 1024px) {
-    .social-media {
-        padding: 20px 150px 20px 150px;
-    }
-}
