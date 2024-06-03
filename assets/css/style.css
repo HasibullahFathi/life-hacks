@@ -97,13 +97,6 @@ nav {
     font-size: 2rem;
 }
 
-/* main  */
-main {
-    flex: 1 0 auto;
-    background-color: #1e7d45;
-    margin-top: 19px;
-}
-
 .hero {
     background: url(/assets/images/hero-pic.jpeg) no-repeat center center / cover;
     width: 100%;
@@ -161,6 +154,26 @@ main {
     margin-bottom: 0.5em;
 }
 
+/* main  */
+main {
+    flex: 1 0 auto;
+    background-color: #ffffff;
+    margin-top: 19px;
+}
+
+.about h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.who-we-are, .what-we-do {
+    padding: 10px;
+    text-align: justify;
+}
+
+.info img {
+    width: 100%;
+}
 
 /* footer */
 .social-media {
@@ -243,7 +256,7 @@ main {
 
     /* footer */
     .social-media {
-        padding: 20px 100px;
+        padding: 20px 120px;
     }
 
 }
@@ -281,5 +294,12 @@ main {
     .social-media {
         padding: 20px 500px;
         font-size: 130%;
+    }
+}
+
+/* media queries for larger screens */
+@media screen and (min-width: 1024px) {
+    .social-media {
+        padding: 20px 150px 20px 150px;
     }
 }
