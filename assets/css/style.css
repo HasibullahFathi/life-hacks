@@ -148,12 +148,13 @@ main {
 .cover-text {
     position: absolute;
     bottom: 19px;
-    width: 92%;
+    width: 90%;
     min-height: 174px;
     background-color: rgb(43 43 43 / 48%);
     font-size: 131%;
     color: rgb(255 255 255);
     padding-left: 10px;
+    margin-left: 5%;
 }
 
 .cover-text h1 {
@@ -260,6 +261,20 @@ main {
 
     .menu li {
         padding-left: 2rem;
+    }
+    
+
+
+    /* search bar  */
+    .search-container {
+        width: 47.5%;
+        top: 50px;
+        left: 49.9%;
+    }
+
+    .cover-text {
+        width: 49%;
+        margin-left: 3%;
     }
 
     /* footer */
