@@ -254,6 +254,14 @@ main {
         background-color: rgb(155, 41, 0);
     }
 
+    /* main section  */
+    .who-we-are, .what-we-do {
+        padding: 20px;
+    }
+
+    .about h2 {
+        margin: 20px 0;
+
     /* footer */
     .social-media {
         padding: 20px 120px;
@@ -275,8 +283,6 @@ main {
     .menu li {
         padding-left: 2rem;
     }
-    
-
 
     /* search bar  */
     .search-container {
@@ -290,6 +296,17 @@ main {
         margin-left: 3%;
     }
 
+    /* main section  */
+    .info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2%;
+    }
+
+    .what-we-do {
+        order: 2;
+    }
+
     /* footer */
     .social-media {
         padding: 20px 500px;
@@ -297,7 +314,7 @@ main {
     }
 }
 
-/* media queries for larger screens */
+/* media queries for larger screens 1024*/
 @media screen and (min-width: 1024px) {
     .social-media {
         padding: 20px 150px 20px 150px;
