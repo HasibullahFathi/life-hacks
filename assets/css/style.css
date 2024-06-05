@@ -39,6 +39,7 @@ header a {
 h1 {
     font-family: 'Rubik', sans-serif;
     letter-spacing: 2px;
+    color: aqua;
 }
 
 header h1 {
@@ -161,7 +162,7 @@ nav {
 main {
     flex: 1 0 auto;
     background-color: #ffffff;
-    margin-top: 19px;
+    margin-top: 35px;
 }
 
 .about h2 {
@@ -182,6 +183,66 @@ main {
 .info img {
     width: 100%;
 }
+
+/* slide show  */
+
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* margin: 0; */
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.text {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.fade {
+    animation: fade 1.5s infinite;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes slide {
+    0% {display: none;}
+    33% {display: block;}
+    66% {display: none;}
+    100% {display: none;}
+}
+
+.mySlides:nth-child(1) {
+    animation: slide 9s infinite;
+}
+
+.mySlides:nth-child(2) {
+    animation: slide 9s infinite 3s;
+}
+
+.mySlides:nth-child(3) {
+    animation: slide 9s infinite 6s;
+}
+
 
 /* footer */
 .social-media {
