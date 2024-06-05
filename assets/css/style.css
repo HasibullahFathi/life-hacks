@@ -39,7 +39,14 @@ header a {
 h1 {
     font-family: 'Rubik', sans-serif;
     letter-spacing: 2px;
-    color: aqua;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 10px;
 }
 
 header h1 {
@@ -165,13 +172,15 @@ main {
     margin-top: 35px;
 }
 
-.about h2 {
+.hero-title h2 {
     text-align: center;
     padding-top: 1rem;
+    margin-left: 0;
 }
 
-.info h3 {
+.hero-text h3 {
     margin: 25px 0px 0px 10px;
+    margin-left: 0 !important;
 }
 .who-we-are,
 .what-we-do,
