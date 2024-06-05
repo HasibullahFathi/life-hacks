@@ -161,8 +161,8 @@ nav {
     margin-left: 5%;
 }
 
-.cover-text h1 {
-    margin-bottom: 0.5em;
+.cover-text h2, .cover-text h3 {
+    margin-left: 0;
 }
 
 /* main  */
@@ -172,19 +172,19 @@ main {
     margin-top: 35px;
 }
 
-.hero-title h2 {
+.hero-title > h2 {
     text-align: center;
     padding-top: 1rem;
     margin-left: 0;
+    color: aqua;
 }
 
 .hero-text h3 {
     margin: 25px 0px 0px 10px;
     margin-left: 0 !important;
 }
-.who-we-are,
-.what-we-do,
-.what-for-you {
+
+.content-left-padd {
     padding: 10px;
     text-align: justify;
 }
@@ -193,14 +193,10 @@ main {
     width: 100%;
 }
 
-/* slide show  */
-
 .container {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
-    /* margin: 0; */
+
 }
 
 .slideshow-container {
@@ -304,13 +300,10 @@ main {
         column-count: 2;
     }
 
-    .who-we-are,
-    .what-we-do,
-    .what-for-you {
-        display: flex;
-        /* flex-direction: column; */
-        height: 22em;
+    .content-hight {
+        height: 16em;
         column-count: 2;
+        display: flex;
     }
 
     .logo {
@@ -348,14 +341,15 @@ main {
     }
 
     /* main section  */
-    .who-we-are,
-    .what-we-do,
-    .what-for-you {
+    .content-left-padd {
         padding: 20px;
+        text-align: justify;
     }
 
+
+
     .about h2 {
-        margin: 20px 0;
+        margin: 20px 0 0 20px;
     }
 
     .info h3 {
@@ -412,10 +406,8 @@ main {
             padding: 20px 150px 20px 150px;
         }
 
-        .who-we-are,
-        .what-we-do,
-        .what-for-you {
-            height: 28em;
+        .content-hight {
+            height: 19em;
         }
     }
 
