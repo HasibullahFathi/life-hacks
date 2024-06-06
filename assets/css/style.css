@@ -42,11 +42,13 @@ h1 {
 }
 
 h2 {
-    margin-left: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
 }
 
 h3 {
-    margin-left: 10px;
+    margin: 10px;
 }
 
 header h1 {
@@ -193,59 +195,25 @@ main {
     width: 100%;
 }
 
-.container {
-    justify-content: center;
-    align-items: center;
-
+.img-line-hight {
+    line-height: 0.7;
 }
 
-.slideshow-container {
-    position: relative;
-    max-width: 600px;
+/* gallery */
+.nav-btn {
     width: 100%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    padding: 5px 40px;
 }
 
-.mySlides {
-    display: none;
-    text-align: center;
+.nav-btn-style {
+    border-radius: 30px;
+    border: black;
+    margin: 7px;
+    padding: 7px;
 }
 
-.text {
-    font-size: 18px;
-    padding: 20px;
-}
-
-.fade {
-    animation: fade 1.5s infinite;
-}
-
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-
-@keyframes slide {
-    0% {display: none;}
-    33% {display: block;}
-    66% {display: none;}
-    100% {display: none;}
-}
-
-.mySlides:nth-child(1) {
-    animation: slide 9s infinite;
-}
-
-.mySlides:nth-child(2) {
-    animation: slide 9s infinite 3s;
-}
-
-.mySlides:nth-child(3) {
-    animation: slide 9s infinite 6s;
+.style-link {
+    text-decoration: none;
 }
 
 
@@ -414,9 +382,7 @@ main {
     /* media queries for larger screens 1200*/
     @media screen and (min-width: 1300px) {
 
-        .who-we-are,
-        .what-we-do,
-        .what-for-you {
-            height: 34em;
+        .content-font {
+            font-size: 125%;
         }
     }
