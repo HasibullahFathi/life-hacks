@@ -216,6 +216,9 @@ main {
     text-decoration: none;
 }
 
+.nav-btn-style:hover {
+    background-color: rgba(134, 134, 134, 0.327);
+}
 
 /* footer */
 .social-media {
@@ -279,7 +282,6 @@ main {
     }
 
     .login-btn {
-
         border: none;
         border-radius: 25px;
         padding: 10px 20px;
@@ -314,14 +316,30 @@ main {
         text-align: justify;
     }
 
-
-
     .about h2 {
         margin: 20px 0 0 20px;
     }
 
     .info h3 {
         margin: 25px 0px 0px 20px;
+    }
+
+/* gallery */
+    .container {
+        margin-top: 7%;
+        display: grid;
+    }
+
+    .nav-btn {
+
+    }
+
+    .all-cat {
+        gap: 5px;
+    }
+
+    .sub-heading {
+        width: 100%;
     }
 
     /* footer */
